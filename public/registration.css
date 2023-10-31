@@ -1,0 +1,40 @@
+.formdiv {max-width: 1000px ;
+margin: 0 auto;
+display: inline-block;}
+
+.formdiv form{ width: 100%;
+border: 1px solid #000; background-color: aquamarine; border-radius: 15px; padding: 15px;}
+
+.formdiv form input, select{
+    width: 90%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #232;
+outline: none;
+border-radius: 10px;
+background-color: aqua;
+}
+ form input:focus{border: 1px solid #e80808;}
+
+form input::placeholder{font-size: 15px;
+color: #e80808;}
+form .name
+form .number
+form .date
+form .gender
+form .email
+form .text
+form .date
+form .number{
+    margin: 50px ;
+}
+body{background-color: black;}
+h1{
+    color: #0869e8;
+}
+h3{
+    color: rgb(140, 0, 255);
+}
+button{ background-color: rgb(29, 229, 86);
+    color: rgb(13, 0, 255);
+}

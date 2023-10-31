@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="../regist/registration.css">
+</head>
+<body>
+    <h1>Registration</h1>
+    
+<div class="formdiv">
+   
+  <form> 
+    <h3>Personal details</h3>
+    <div class="full_name">
+        <label for="full_name">
+            Full name
+        </label>
+        <input type="name" placeholder="Enter the name" required maxlength="25" pattern="[A-Za-z]" aria-readonly="true">
+
+  </div>
+
+  <div class="phone_number">
+    <label for="phone_number">Phone number</label>
+<input type="number" placeholder="Enter the number" required  maxlength="25" >
+  </div>
+  <div class="birth_date">
+    <label for="birth_date">
+        Birth date
+    </label>
+    <input type="date" name="birth_date" required aria-readonly="true" >
+  </div>
+  <div class="gender">
+    <label for="gender"> Gender</label>
+    <select name="Gender">
+        <option value="Mele">Male</option>
+        <option value="Female">Female</option>
+        <option value="Reshad">Reshad</option>
+    </select>
+  </div>
+  <div class="email">
+    <label for="email"> 
+        Email
+    </label>
+    <input type="email" name="email" required placeholder="Enter your email" aria-readonly="true" >
+  </div>
+  <div class="occupation">
+    <label for="occupation"> Occupation </label>
+    <input type="text" name="occupation" required placeholder="Enter occupation" aria-readonly="true" >
+  </div>
+  <h3>Identity Details </h3>
+  <div class="ID_type">
+    <label for="ID_type">ID type</label>
+    <input type="text" name="ID_type" required placeholder="Enter ID Type" aria-readonly="true" maxlength="10">
+  </div>
+  <div class="issue_date">
+    <label for="issue_date"> Issue Date</label>
+    <input type="date" name="issue_date" required >
+
+  
+<div class="ID_number">
+    <label for="ID_number"> ID Number</label>
+    <input type="number" name="ID_number" required placeholder="Enter ID number" maxlength="10">
+    <div class="issue_state">
+        <label for="issue_state">
+            Issue State
+        </label>
+        <input type="text" name="issue_state" required placeholder="Enter ID issue state" maxlength="10">
+    </div>
+</div>
+<div class="issue_authority">
+    <label for="issue_authority"> Issue Authority</label>
+    <input type="text" name="issue_authority" required placeholder="Enter Issue department">
+</div>
+<div class="expiry_date">
+    <label for="expiry_date"> Expiry date </label>
+    <input type="date" name="expiry_date" required>
+</div>
+<button>Next</button>
+</form>
+</div>
+    
+</body>
+</html>
